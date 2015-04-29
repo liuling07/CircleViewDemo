@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.circleviewdemo.MainActivity" 
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.example.circleviewdemo.CircleView 
+        android:id="@+id/circleview1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#ffffff"
+        app:bgColor="#60d5b8"
+        app:bgColorHover="#5BC4A9"
+        android:text="圆一"/>
+
+</LinearLayout>
